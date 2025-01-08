@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "NewRelicWithFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7252",
+      "environmentVariables": {
+        "CORECLR_ENABLE_PROFILING": "1",
+        "CORECLR_PROFILER": "{36032161-FFC0-4B61-B559-F6C5D41BAE5A}",
+        "CORECLR_PROFILER_PATH": "D:/POC/NewRelicWithFunctionApp/NewRelicWithFunctionApp/bin/Debug/net48/newrelic/NewRelic.Profiler.dll",
+        "CORECLR_NEWRELIC_HOME": "D:/POC/NewRelicWithFunctionApp/NewRelicWithFunctionApp/bin/Debug/net48/newrelic",
+        "NEW_RELIC_LICENSE_KEY": "3486610d8f75a0a59d60eb0193b47b07FFFFNRAL",
+        "NEW_RELIC_APP_NAME": "Testapp"
+      }
+    },
+    "environmentVariables": {
+      "CORECLR_ENABLE_PROFILING": "1",
+      "CORECLR_PROFILER": "{36032161-FFC0-4B61-B559-F6C5D41BAE5A}",
+      "CORECLR_PROFILER_PATH": "D:/POC/NewRelicWithFunctionApp/NewRelicWithFunctionApp/bin/Debug/net48/newrelic/NewRelic.Profiler.dll",
+      "CORECLR_NEWRELIC_HOME": "D:/POC/NewRelicWithFunctionApp/NewRelicWithFunctionApp/bin/Debug/net48/newrelic",
+      "NEW_RELIC_LICENSE_KEY": "3486610d8f75a0a59d60eb0193b47b07FFFFNRAL",
+      "NEW_RELIC_APP_NAME": "Testapp"
+    }
+  }
+}
