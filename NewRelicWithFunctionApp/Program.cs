@@ -26,7 +26,7 @@ namespace NewRelicWithFunctionApp
                            .Enrich.FromLogContext()
                            .Enrich.WithNewRelicLogsInContext()
                            .WriteTo.NewRelicLogs(applicationName: "Testapp",
-                                licenseKey: "3486610d8f75a0a59d60eb0193b47b07FFFFNRAL")
+                                licenseKey: "")
                            .CreateLogger();
 
                         loggingBuilder.AddSerilog();
